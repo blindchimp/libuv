@@ -86,6 +86,7 @@ CFLAGS += -Wno-dollar-in-identifier-extension
 endif
 CPPFLAGS += -D_DARWIN_USE_64_BIT_INODE=1
 CPPFLAGS += -D_DARWIN_UNLIMITED_SELECT=1
+CPPFLAGS += -mmacosx-version-min=10.9
 LDFLAGS += -framework Foundation \
            -framework CoreServices \
            -framework ApplicationServices
